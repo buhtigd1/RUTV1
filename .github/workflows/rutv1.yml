@@ -23,7 +23,7 @@ jobs:
           pip install requests transliterate
 
       - name: Run script
-        run: python rutv.py
+        run: python provider.py
 
       - name: Commit changes
         run: |
